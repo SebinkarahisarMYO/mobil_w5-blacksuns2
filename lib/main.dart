@@ -35,16 +35,33 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text("Mobil Hafta 5"),
       ),
       body: Center(
-        child: 
-          
-          //--------------
-          //--------------
-          //--------------Kodları aşağıya yazınız.
-          //--------------
-          //--------------
-          //--------------    
-          //--------------
-          //--------------
+          child:
+
+              //--------------
+              //--------------
+              //--------------Kodları aşağıya yazınız.
+              //--------------
+              //--------------
+              //--------------
+              //--------------
+              //--------------
+              Container(
+        width: 150,
+        height: 300,
+        color: Colors.yellow,
+        alignment: Alignment.topRight,
+        child: Container(
+          width: 100,
+          height: 100,
+          color: Colors.black,
+          child: Text(
+            "Flutter",
+            style: TextStyle(color: Colors.white),
+          ),
+          alignment: Alignment.bottomRight,
+        ),
+      )
+
           //--------------Kodları yukarıya yazınız.
           //--------------
           //--------------
